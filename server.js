@@ -229,7 +229,7 @@ app.put("/:id([A-Za-z0-9\-]+)", async (req, res, next) => {
 });
 
 //Post content - perform save or delete
-app.post("/:id([A-Za-z0-9\-]+)", express.urlencoded({ extended: true, type: "multipart/form-data" }), upload.single("file"), async (req, res, next) => {
+app.post("/:id([A-Za-z0-9\-]+)", upload.single("file"), async (req, res, next) => {
   try {
     const id = req.params.id;
     
