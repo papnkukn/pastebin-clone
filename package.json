@@ -1,0 +1,31 @@
+{
+  "name": "pastebin-clone",
+  "version": "1.0.0",
+  "description": "A simple page to copy-paste text and share among users",
+  "main": "server.js",
+  "keywords": [],
+  "author": "papnkukn",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.17.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "keywords": [
+    "pastebin",
+    "hastebin",
+    "copy-paste",
+    "clone",
+    "server",
+    "share"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papnkukn/pastebin-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/papnkukn/pastebin-clone/issues"
+  },
+  "homepage": "https://github.com/papnkukn/pastebin-clone"
+}
